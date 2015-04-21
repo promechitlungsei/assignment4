@@ -17,6 +17,8 @@ So it seems like you have the Master/Details template to apply the different siz
 'app.js' file into a file called MasterView.js under the ui/commons folder. When you place it there type this line of code at the
 very last line [module.exports = MasterView;].Other than that your code can run fine as a regular app.js file. I would recommend using
 a different color for the background or the text because of contrasting issues, but despite that I can see your resume picture in the 2nd page
-and your personal info/contacts on the first so nice job!
+and your personal info/contacts on the first so nice job! I ran this on the Android emulator for a nexus 5 phone and a nexus 10 tablet and even without 
+the resizing code the placement looks ok, except for the picture on the second page it seemed like it was crushed due to the
+dimensions of the tablet.
 
 Peer Reviewer 1
